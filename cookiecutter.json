@@ -1,0 +1,11 @@
+{
+    "project_name": "",
+    "description": "",
+    "root_name": "{{ cookiecutter.project_name.lower().replace(' ','-').replace('_', '-').replace('--', '-') }}",
+    "module_name": "{{ cookiecutter.root_name.replace('-', '_') }}",
+    "git_hosting": "github.com",
+    "author_name": "",
+    "author_email": "",
+    "git_username": "",
+    "git_repo": "{{ 'https://' + cookiecutter.git_hosting + '/' + cookiecutter.git_username + '/' + cookiecutter.root_name }}"
+  }
