@@ -157,11 +157,11 @@ ban-relative-imports = "all"
 "__init__.py" = ["F401"]
 
 [tool.coverage.run]
-source_pkgs = ["my_test"]
+source_pkgs = ["{{ cookiecutter.module_name }}"]
 branch = true
 parallel = true
 omit = [
-  "src/my_test/__about__.py",
+  "src/{{ cookiecutter.module_name }}/__about__.py",
 ]
 
 
