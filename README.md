@@ -1,7 +1,7 @@
-# Cookiecutter Cpp-Python-Binding Template
+# Cookiecutter python template
 
-to generate a template project that bind cpp and python together
+to generate a template for a Python project
 
 ```sh
-pipx run cookiecutter gh:mohammadraziei/cookiecutter-python-template
+python -m cookiecutter gh:mohammadraziei/cookiecutter-python-template
 ```
