@@ -165,15 +165,6 @@ omit = [
 ]
 
 
-[tool.coverage.run]
-source_pkgs = ["{{ cookiecutter.module_name }}"]
-branch = true
-parallel = true
-omit = [
-  "src/{{ cookiecutter.module_name }}/__about__.py",
-]
-
-
 [tool.coverage.paths]
 {{ cookiecutter.module_name }} = ["src/{{ cookiecutter.module_name }}"]
 tests = ["tests"]
