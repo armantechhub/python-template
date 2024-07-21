@@ -1,4 +1,5 @@
-# ![Python Logo](python-logo.svg) Cookiecutter Python Template
+
+# <img style="width:50px; mix-blend-mode: multiply;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSLR_ZTv5nUSWIbBenV7lIzKZhUw0zVUmYaA&s"/> Cookiecutter Python Template
 
 ![GitHub stars](https://img.shields.io/github/stars/armantechhub/python-template.svg)
 ![GitHub forks](https://img.shields.io/github/forks/armantechhub/python-template.svg)
