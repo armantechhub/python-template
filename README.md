@@ -9,9 +9,17 @@
 
 The Cookiecutter Python Template is designed to streamline the creation of new Python projects. With a single command, you can generate a fully-fledged project structure complete with a `pyproject.toml` configuration file, ready to build and test your application.
 
+## 📋 Requirements
+
+Before you begin, make sure you have the following tools installed:
+
+```sh
+pip install cookiecutter ruff pytest pytest-cov pytest-xdist
+```
+
 ## 💻 Getting Started
 
-To get started, you need to have [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) installed in your environment. Once installed, you can generate a project by running the following command:
+To generate a new project, run the following command:
 
 ```sh
 python -m cookiecutter gh:armantechhub/python-template
@@ -27,6 +35,34 @@ After running the command, a new directory will be created with the name of your
 - **Versioning**: Dynamically fetches the version number from the source code.
 - **Testing**: Set up with `pytest` and `coverage` for running tests and generating coverage reports.
 - **Linting**: Configured with `black`, `mypy`, and `ruff` for code style checking and formatting.
+
+## 🔧 Tools
+
+### Linter
+
+Run the linter to check and fix code style issues:
+
+```sh
+python -m ruff check . --fix
+```
+
+### Testing
+
+#### Simple Testing
+
+Run basic tests without coverage:
+
+```sh
+python -m pytest
+```
+
+#### Advanced Testing
+
+Run tests with coverage and parallel execution:
+
+```sh
+python -m pytest --cov -n 4
+```
 
 ## 🛠️ Customization
 
